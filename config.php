@@ -1,3 +1,4 @@
+// UNTUK KONEKSI DATABASE
 <?php
 $servername = "localhost";
 $username = "root"; // Default username dari localhost adalah root
