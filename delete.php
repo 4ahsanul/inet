@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
 	$user_id = $_GET['id'];
 
 	// Tulis delete query
-	$sql = "DELETE FROM `users` WHERE `id`='$user_id'";
+	$sql = "DELETE FROM `pegawai` WHERE `id`='$user_id'";
 
 	// Eksekusi the query
 
