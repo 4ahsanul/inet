@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 
   $sql = "INSERT INTO `pegawai`(`nama`, `gaji`, `kota`, `deskripsi`) VALUES ('$nama', '$gaji', '$kota', '$deskripsi')";
 
-  //Eksekusi the query
+  //Eksekusi query
 
   $result = $conn->query($sql);
 
